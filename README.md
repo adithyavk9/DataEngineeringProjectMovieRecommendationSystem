@@ -25,7 +25,7 @@
 
 ## 1.2 Set Up Azure Resources
 1. Create Azure Data Lake Storage:
-   Go to the Azure Portal and create a Storage Account with a Blob Container.Name the container 'movielensdata'.
+   Go to the Azure Portal and create a Storage Account with a Blob Container.Name the container 'bronze'.
 2. Get the Connection String:
    In the Storage Account, under Security + Networking > Access keys, copy the connection string.
 3. Install the Azure CLI:
