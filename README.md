@@ -116,3 +116,11 @@ python .\ingestMovieLensDataPD.py
 2. Parse the Metadata into Separate Columns.
 3. Save Enriched Data to Azure Blob Storage Gold Layer.
 4. Verify
+
+
+# Step 6: Build the model
+1. Load the files movies and ratings from gold container to dataframe.
+2. Split the data into training and testing sets.
+3. Train a Singular Value Decomposition (SVD) model using the training set.
+4. Evaluate the model's performance on the test set using Root Mean Squared Error (RMSE).
+5. Generate top-N recommendations for a specific user.
